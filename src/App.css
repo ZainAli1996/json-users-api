@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary_color: #223637;
+    --secondary_color: #0081CB;
+    --background_color: #f8f9fa;
+}
+
+body {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+main a {
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--primary_color);
+    transition: all ease-in-out 0.3s;
+}
+
+main a:hover {
+    color: var(--secondary_color);
+    transition: all ease-in-out 0.3s;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: var(--primary_color);
+}
+
+span {
+    color: var(--primary_color);
+}
+
+/******** Default CSS End ********/
