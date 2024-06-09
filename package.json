@@ -1,5 +1,5 @@
 {
-  "name": "api-handling",
+  "name": "json-users-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -10,12 +10,14 @@ type propsType = {
 
 export default function GridColumns(props: propsType) {
 
-    const { datasource, gridCols, loading } = props
+    const {datasource, gridCols, loading} = props
 
-    return <>
+    return <div>
         {loading ? <h1>Loading ...</h1> : <table>
             <thead>
-            {gridCols.map((col, ind) => <th key={ind}>{col.label}</th>)}
+            <tr>
+                {gridCols.map((col, ind) => <th key={ind}>{col.label}</th>)}
+            </tr>
             </thead>
             <tbody>
             {datasource.map((rows: any, rowIndex: any) => <tr>
@@ -25,5 +27,5 @@ export default function GridColumns(props: propsType) {
             </tr>)}
             </tbody>
         </table>}
-    </>
+    </div>
 }
