@@ -5,4 +5,4 @@ Effortlessly manage and handle APIs with our robust API handling solution. Strea
 ![API-Handling](https://github.com/ZainAli1996/json-users-api/assets/57337241/ea3ac2ad-ce7e-4073-9df7-49b563eda050)
 ## Website Link
 
-https://json-users-api.web.app/
+https://users-json-api.web.app/
