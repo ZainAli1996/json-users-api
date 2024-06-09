@@ -12,11 +12,11 @@ export default function GridColumns(props: propsType) {
 
     const {datasource, gridCols, loading} = props
 
-    return <div>
-        {loading ? <h1>Loading ...</h1> : <table>
+    return <div className="my-table">
+        {loading ? <h1>Loading ...</h1> : <table className="table table-striped">
             <thead>
             <tr>
-                {gridCols.map((col, ind) => <th key={ind}>{col.label}</th>)}
+                {gridCols.map((col, ind) => <th key={ind} scope="col">{col.label}</th>)}
             </tr>
             </thead>
             <tbody>

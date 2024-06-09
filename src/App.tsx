@@ -1,14 +1,12 @@
 import React from 'react';
 import './App.css';
-import Button from '@mui/material/Button';
-import PublicIcon from '@mui/icons-material/Public';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.bundle';
 import MyAPIScreen from "./pages/MyAPIScreen";
 
 function App() {
   return (
       <section>
-        <Button variant="contained" endIcon={<PublicIcon/>} sx={{ m: 2 }}>Hello world</Button>
-
         <MyAPIScreen />
       </section>
   );

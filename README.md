@@ -2,8 +2,7 @@
 
 Effortlessly manage and handle APIs with our robust API handling solution. Streamline API integration, automate tasks, and ensure seamless data exchange with our reliable and scalable API handling platform.
 
-![Quiz-App](https://github.com/ZainAli1996/quiz-exam-app/assets/57337241/de31743a-ce02-4c16-a167-54bb7602e2b7)
-
+![API-Handling](https://github.com/ZainAli1996/json-users-api/assets/57337241/ea3ac2ad-ce7e-4073-9df7-49b563eda050)
 ## Website Link
 
 https://json-users-api.web.app/

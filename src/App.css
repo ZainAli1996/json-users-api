@@ -15,6 +15,14 @@ body {
     line-height: 20px;
 }
 
+main {
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
 main a {
     font-size: 14px;
     font-weight: 500;
@@ -26,6 +34,19 @@ main a {
 main a:hover {
     color: var(--secondary_color);
     transition: all ease-in-out 0.3s;
+}
+
+main h1 {
+    margin-bottom: 20px;
+}
+
+main .my-table {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+main .my-table .table {
+    margin-top: 16px;
 }
 
 p {

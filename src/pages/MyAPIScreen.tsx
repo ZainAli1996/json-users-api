@@ -1,5 +1,5 @@
 import {Box, Button} from "@mui/material";
-import PublicIcon from '@mui/icons-material/Public';
+import ApiIcon from '@mui/icons-material/Api';
 import axios from "axios";
 import {useState} from "react";
 import GridColumns from "../components/GridColumns";
@@ -56,7 +56,7 @@ export default function MyAPIScreen() {
 
     return <main>
         <Box>
-            <h1>API Handling <PublicIcon/></h1>
+            <h1>API Handling <ApiIcon/></h1>
             <Button onClick={getApiData} sx={{margin: 1, textTransform: 'capitalize'}} variant="contained">Get
                 Data</Button>
             <Button onClick={postApiData} sx={{margin: 1, textTransform: 'capitalize'}} variant="contained">Post Data</Button>
@@ -68,27 +68,27 @@ export default function MyAPIScreen() {
                 gridCols={[
                     {
                         key: 'id',
-                        label: 'Product ID'
+                        label: 'ID'
                     },
                     {
                         key: 'title',
-                        label: 'Product Title'
+                        label: 'Title'
                     },
                     {
                         key: 'price',
-                        label: 'Product Price'
+                        label: 'Price'
                     },
                     {
                         key: 'description',
-                        label: 'Product Description'
+                        label: 'Description'
                     },
                     {
                         key: 'category',
-                        label: 'Product Category'
+                        label: 'Category'
                     },
                     {
                         key: 'image',
-                        label: 'Product Image'
+                        label: 'Image'
                     },
                     {
                         key: '',
